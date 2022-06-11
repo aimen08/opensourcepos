@@ -22,7 +22,7 @@ services:
         depends_on:
           - mysql
         ports:
-          - "127.0.0.1:3002:80"
+          - "3002:80"
         networks:
           - app_net
           - db_net
